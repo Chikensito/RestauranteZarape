@@ -55,7 +55,7 @@ body {
     flex-direction: column;
 }
 
-h2 {
+h2, h3, label {
     color: #A11F0C; 
     margin-bottom: 20px;
     text-align: center;
