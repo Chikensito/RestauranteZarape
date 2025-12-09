@@ -1,33 +1,34 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta name="author" content="Christopher,Isaac,Noe,Ximena">
     <meta name="description" content="Proyecto">
     <meta name="keywords" content="HTML">
-    <link rel="stylesheet" href="/Style/EstiloPrincipal.css">
-    <link rel="stylesheet" href="/Style/EstiloVerSuc.css">
-    <link rel="stylesheet" href="/Style/EstiloAlimentos.css">
+    <link rel="stylesheet" href="/Style/EstiloGeneral.css"> 
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
     <link href="/Style/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css"/>
-    </head>
-<body>    
+</head>
+<body> 
+    
 <div id="nav-menu">
-<label onclick="cargarAlimentos();"><i class="fa-solid fa-bowl-food"></i> Alimentos</label>
-<label><i class="fa-solid fa-champagne-glasses"></i> Bebidas</label>
-<label><i class="fa-solid fa-2"></i><i class="fa-solid fa-x"></i><i class="fa-solid fa-1"></i> Combos</label>
-<label onclick="cargarSucursal();"><i class="fa-solid fa-utensils"></i> Sucursales</label>
-<label><i class="fa-solid fa-person"></i> Usuario</label>
+    <label onclick="cargarAlimentos();"><i class="fa-solid fa-bowl-food"></i> Alimentos</label>
+    <label><i class="fa-solid fa-champagne-glasses"></i> Bebidas</label>
+    <label onclick="cargarCombos();"><i class="fa-solid fa-box"></i> Combos</label>
+    <label onclick="cargarSucursal();"><i class="fa-solid fa-utensils"></i> Sucursales</label>
+    <label><i class="fa-solid fa-person"></i> Usuario</label>
 </div>
+
 <a href="/Index.html">
-<img src="/Style/Imgs/LogoRestaurante.png" id="logo">
+    <img src="/Style/Imgs/LogoRestaurante.png" id="logo">
 </a>
 
-<section id="contenido">
-</section>
-<section id="ver">
-</section>
+<section id="contenido"></section>
+<section id="ver"></section> 
+
 <script src="/Style/sweetalert2/sweetalert2.min.js"></script>
 <script src="/JS/Sucursal.js"></script>
 <script src="/JS/Alimentos.js"></script>
+<script src="/JS/Combos.js"></script>
 </body>
 </html>
